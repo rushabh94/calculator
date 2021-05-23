@@ -1,7 +1,14 @@
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./App.css";
+import Calculator from "./components/Calculator";
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <>
+      <Calculator />
+    </>
+  );
 }
 
 export default App;
